@@ -20,12 +20,14 @@ Oluşturulan portföyler, eğitim (train) döneminden tamamen farklı bir test (
 Veriler iki ayrı zaman dilimine ayrılmıştır:
 
 - **Eğitim (Train) Dönemi:**  
-  Portföy ağırlıklarının belirlendiği dönem
+  **1 Kasım 2025 – 1 Aralık 2025** tarihleri arasındaki veriler kullanılmıştır.  
+  Bu dönem, portföy ağırlıklarının belirlendiği dönemdir.
 
 - **Test Dönemi:**  
-  Belirlenen portföy ağırlıklarının performansının ölçüldüğü dönem
+  **10 Aralık 2025 – 16 Aralık 2025** tarihleri arasındaki veriler kullanılmıştır.  
+  Bu dönem, belirlenen portföy ağırlıklarının performansının ölçüldüğü dönemdir.
 
-Bu ayrımın amacı, portföylerin yalnızca geçmiş verilere uyum sağlamasını değil, aynı zamanda daha önce görülmemiş yeni veriler karşısındaki davranışını da gözlemlemektir. Böylece daha gerçekçi ve güvenilir sonuçlar elde edilmiştir.
+Bu ayrımın amacı, portföylerin yalnızca geçmiş verilere uyum sağlamasını değil, aynı zamanda daha önce görülmemiş yeni piyasa koşulları altındaki davranışlarını da gözlemlemektir. Böylece veri sızıntısı (data leakage) önlenmiş ve sonuçların güvenilirliği artırılmıştır.
 
 ---
 
@@ -103,14 +105,25 @@ Test edilen portföylerin varlık dağılımları ve ağırlıkları aşağıda 
 
 ## 5. Bulguların Değerlendirilmesi
 
-Minimum ve ortalama getiri hedefli modellerin aynı portföy bileşimini üretmesi, bu iki hedefin mevcut veri seti altında benzer bir risk-getiri dengesine ulaştığını göstermektedir. Bu portföyler, farklı sektörlerden birçok hisse senedini içermesi sayesinde riski dağıtan ve daha dengeli bir yapı sunmaktadır.
+Minimum ve ortalama getiri hedefli modellerin aynı portföy bileşimini üretmesi, bu iki hedefin mevcut veri seti altında benzer bir risk-getiri dengesine ulaştığını göstermektedir. Bu portföyler, farklı sektörlerden birden fazla hisse senedini içermesi sayesinde riski dağıtan ve daha dengeli bir yapı sunmaktadır.
 
-Maksimum getiri hedefli model ise çeşitlendirmeden tamamen vazgeçerek tüm portföyü tek bir hisseye yönlendirmiştir. Bu yaklaşım, test döneminde pozitif ortalama getiri sağlamış olsa da risk seviyesinin belirgin biçimde yükselmesine neden olmuştur.
+Maksimum getiri hedefli model ise getiriyi artırmak amacıyla çeşitlendirmeden vazgeçmiş ve portföyü tek bir hisse senedine yoğunlaştırmıştır. Bu yaklaşım, test döneminde pozitif ortalama getiri sağlamış olsa da risk seviyesinin belirgin biçimde artmasına neden olmuştur.
 
 ---
 
 ## 6. Genel Sonuç
 
-Bu çalışma, portföy çeşitlendirmesinin risk üzerindeki etkisini açık biçimde ortaya koymaktadır. Çok varlıklı ve dengeli portföylerin daha düşük risk seviyeleri sunduğu, buna karşılık agresif getiri hedeflerinin portföyü tek bir varlığa yoğunlaştırarak riski artırdığı gözlemlenmiştir.
+Bu çalışma, portföy çeşitlendirmesinin risk üzerindeki etkisini açık biçimde ortaya koymaktadır. Çok varlıklı ve dengeli portföylerin daha düşük risk seviyeleri sunduğu, buna karşılık agresif getiri hedeflerinin portföyü tek bir varlığa yoğunlaştırarak risk seviyesini artırdığı gözlemlenmiştir.
 
 Eğitim ve test dönemlerinin ayrı tutulması sayesinde elde edilen sonuçlar, portföylerin yalnızca geçmiş verilere değil, yeni ve bağımsız piyasa koşullarına karşı da nasıl davrandığını göstermektedir.
+
+---
+
+## 7. Kaynak Kod ve Ekler
+
+Çalışmada kullanılan tüm kaynak kodlar ve veri dosyaları aşağıdaki GitHub adresinde yer almaktadır:
+
+- **GitHub Repository:**  
+  https://github.com/FurkanOzgel/optimization
+
+Alternatif olarak, eğitim ve test verileri ile kaynak kodlar teslim klasöründe sunulmuştur.
