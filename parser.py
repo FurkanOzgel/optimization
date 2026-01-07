@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import datetime
 import json
+import os
 
 def convert_json_to_dataframe(file_path):
     """
@@ -41,8 +42,23 @@ def convert_json_to_dataframe(file_path):
     
     return df
 
+def load_multiple_stocks(folder_path):
+    """
+    Loads multiple Yahoo Finance JSON files and merges them into a single DataFrame.
+    """
+    dfs = []
+
+    for file in os.listdir(folder_path):
+        if file.endswith(".json"):
+            df = convert_json_to_dataframe(os.path.join(folder_path, file))
+            dfs.append(df)
+
+    prices = pd.concat(dfs, axis=1)
+    return prices
+
+
 
 if __name__ == "__main__":
     # Test the conversion function
-    df = convert_json_to_dataframe('test_data/aapl.json')
+    df = convert_json_to_dataframe('train_data/aapl.json')
     print(df)

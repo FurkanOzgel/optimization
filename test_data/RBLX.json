@@ -4,43 +4,43 @@
             {
                 "meta": {
                     "currency": "USD",
-                    "symbol": "KO",
+                    "symbol": "RBLX",
                     "exchangeName": "NYQ",
                     "fullExchangeName": "NYSE",
                     "instrumentType": "EQUITY",
-                    "firstTradeDate": -252322200,
-                    "regularMarketTime": 1767808955,
+                    "firstTradeDate": 1615386600,
+                    "regularMarketTime": 1767808830,
                     "hasPrePostMarketData": true,
                     "gmtoffset": -18000,
                     "timezone": "EST",
                     "exchangeTimezoneName": "America/New_York",
-                    "regularMarketPrice": 67.515,
-                    "fiftyTwoWeekHigh": 74.38,
-                    "fiftyTwoWeekLow": 60.71,
-                    "regularMarketDayHigh": 68.07,
-                    "regularMarketDayLow": 67.45,
-                    "regularMarketVolume": 7530018,
-                    "longName": "The Coca-Cola Company",
-                    "shortName": "Coca-Cola Company (The)",
-                    "chartPreviousClose": 70.09,
+                    "regularMarketPrice": 76.559,
+                    "fiftyTwoWeekHigh": 150.59,
+                    "fiftyTwoWeekLow": 50.1,
+                    "regularMarketDayHigh": 77.63,
+                    "regularMarketDayLow": 75.41,
+                    "regularMarketVolume": 6811918,
+                    "longName": "Roblox Corporation",
+                    "shortName": "Roblox Corporation",
+                    "chartPreviousClose": 99.0,
                     "priceHint": 2,
                     "currentTradingPeriod": {
                         "pre": {
                             "timezone": "EST",
-                            "end": 1767796200,
                             "start": 1767776400,
+                            "end": 1767796200,
                             "gmtoffset": -18000
                         },
                         "regular": {
                             "timezone": "EST",
-                            "end": 1767819600,
                             "start": 1767796200,
+                            "end": 1767819600,
                             "gmtoffset": -18000
                         },
                         "post": {
                             "timezone": "EST",
-                            "end": 1767834000,
                             "start": 1767819600,
+                            "end": 1767834000,
                             "gmtoffset": -18000
                         }
                     },
@@ -55,7 +55,6 @@
                         "1y",
                         "2y",
                         "5y",
-                        "10y",
                         "ytd",
                         "max"
                     ]
@@ -70,51 +69,51 @@
                 "indicators": {
                     "quote": [
                         {
-                            "volume": [
-                                29789400,
-                                23124200,
-                                18444500,
-                                18660100,
-                                17370000
-                            ],
                             "open": [
-                                70.38999938964844,
-                                70.55000305175781,
-                                69.11000061035156,
-                                70.43000030517578,
-                                71.30000305175781
+                                99.9800033569336,
+                                94.19000244140625,
+                                90.875,
+                                87.95999908447266,
+                                87.18000030517578
                             ],
                             "low": [
-                                69.77999877929688,
-                                68.79000091552734,
-                                69.04000091552734,
-                                70.31999969482422,
-                                70.31999969482422
-                            ],
-                            "high": [
-                                70.52999877929688,
-                                70.69000244140625,
-                                70.62000274658203,
-                                71.31999969482422,
-                                71.30000305175781
+                                94.3499984741211,
+                                93.06999969482422,
+                                88.05500030517578,
+                                85.91000366210938,
+                                86.1500015258789
                             ],
                             "close": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                94.36000061035156,
+                                94.33999633789062,
+                                88.51000213623047,
+                                86.95999908447266,
+                                87.44000244140625
+                            ],
+                            "volume": [
+                                8642000,
+                                6115000,
+                                8443800,
+                                7752200,
+                                8234000
+                            ],
+                            "high": [
+                                99.9800033569336,
+                                96.2699966430664,
+                                91.87999725341797,
+                                88.37000274658203,
+                                87.86000061035156
                             ]
                         }
                     ],
                     "adjclose": [
                         {
                             "adjclose": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                94.36000061035156,
+                                94.33999633789062,
+                                88.51000213623047,
+                                86.95999908447266,
+                                87.44000244140625
                             ]
                         }
                     ]

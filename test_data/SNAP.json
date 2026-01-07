@@ -4,43 +4,43 @@
             {
                 "meta": {
                     "currency": "USD",
-                    "symbol": "KO",
+                    "symbol": "SNAP",
                     "exchangeName": "NYQ",
                     "fullExchangeName": "NYSE",
                     "instrumentType": "EQUITY",
-                    "firstTradeDate": -252322200,
-                    "regularMarketTime": 1767808955,
+                    "firstTradeDate": 1488465000,
+                    "regularMarketTime": 1767808841,
                     "hasPrePostMarketData": true,
                     "gmtoffset": -18000,
                     "timezone": "EST",
                     "exchangeTimezoneName": "America/New_York",
-                    "regularMarketPrice": 67.515,
-                    "fiftyTwoWeekHigh": 74.38,
-                    "fiftyTwoWeekLow": 60.71,
-                    "regularMarketDayHigh": 68.07,
-                    "regularMarketDayLow": 67.45,
-                    "regularMarketVolume": 7530018,
-                    "longName": "The Coca-Cola Company",
-                    "shortName": "Coca-Cola Company (The)",
-                    "chartPreviousClose": 70.09,
+                    "regularMarketPrice": 9.011,
+                    "fiftyTwoWeekHigh": 13.281,
+                    "fiftyTwoWeekLow": 6.9,
+                    "regularMarketDayHigh": 9.07,
+                    "regularMarketDayLow": 8.79,
+                    "regularMarketVolume": 26189664,
+                    "longName": "Snap Inc.",
+                    "shortName": "Snap Inc.",
+                    "chartPreviousClose": 7.92,
                     "priceHint": 2,
                     "currentTradingPeriod": {
                         "pre": {
                             "timezone": "EST",
-                            "end": 1767796200,
                             "start": 1767776400,
+                            "end": 1767796200,
                             "gmtoffset": -18000
                         },
                         "regular": {
                             "timezone": "EST",
-                            "end": 1767819600,
                             "start": 1767796200,
+                            "end": 1767819600,
                             "gmtoffset": -18000
                         },
                         "post": {
                             "timezone": "EST",
-                            "end": 1767834000,
                             "start": 1767819600,
+                            "end": 1767834000,
                             "gmtoffset": -18000
                         }
                     },
@@ -70,51 +70,51 @@
                 "indicators": {
                     "quote": [
                         {
-                            "volume": [
-                                29789400,
-                                23124200,
-                                18444500,
-                                18660100,
-                                17370000
-                            ],
                             "open": [
-                                70.38999938964844,
-                                70.55000305175781,
-                                69.11000061035156,
-                                70.43000030517578,
-                                71.30000305175781
+                                7.829999923706055,
+                                7.800000190734863,
+                                7.659999847412109,
+                                7.340000152587891,
+                                7.25
                             ],
                             "low": [
-                                69.77999877929688,
-                                68.79000091552734,
-                                69.04000091552734,
-                                70.31999969482422,
-                                70.31999969482422
-                            ],
-                            "high": [
-                                70.52999877929688,
-                                70.69000244140625,
-                                70.62000274658203,
-                                71.31999969482422,
-                                71.30000305175781
+                                7.650000095367432,
+                                7.619999885559082,
+                                7.300000190734863,
+                                7.190000057220459,
+                                7.114999771118164
                             ],
                             "close": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                7.920000076293945,
+                                7.639999866485596,
+                                7.309999942779541,
+                                7.260000228881836,
+                                7.369999885559082
+                            ],
+                            "volume": [
+                                34068100,
+                                28110200,
+                                38344900,
+                                42391100,
+                                49031500
+                            ],
+                            "high": [
+                                7.946000099182129,
+                                7.889999866485596,
+                                7.679999828338623,
+                                7.440000057220459,
+                                7.400000095367432
                             ]
                         }
                     ],
                     "adjclose": [
                         {
                             "adjclose": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                7.920000076293945,
+                                7.639999866485596,
+                                7.309999942779541,
+                                7.260000228881836,
+                                7.369999885559082
                             ]
                         }
                     ]

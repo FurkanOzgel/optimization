@@ -4,25 +4,25 @@
             {
                 "meta": {
                     "currency": "USD",
-                    "symbol": "KO",
-                    "exchangeName": "NYQ",
-                    "fullExchangeName": "NYSE",
+                    "symbol": "CRSP",
+                    "exchangeName": "NGM",
+                    "fullExchangeName": "NasdaqGM",
                     "instrumentType": "EQUITY",
-                    "firstTradeDate": -252322200,
-                    "regularMarketTime": 1767808955,
+                    "firstTradeDate": 1476883800,
+                    "regularMarketTime": 1767808816,
                     "hasPrePostMarketData": true,
                     "gmtoffset": -18000,
                     "timezone": "EST",
                     "exchangeTimezoneName": "America/New_York",
-                    "regularMarketPrice": 67.515,
-                    "fiftyTwoWeekHigh": 74.38,
-                    "fiftyTwoWeekLow": 60.71,
-                    "regularMarketDayHigh": 68.07,
-                    "regularMarketDayLow": 67.45,
-                    "regularMarketVolume": 7530018,
-                    "longName": "The Coca-Cola Company",
-                    "shortName": "Coca-Cola Company (The)",
-                    "chartPreviousClose": 70.09,
+                    "regularMarketPrice": 57.65,
+                    "fiftyTwoWeekHigh": 78.48,
+                    "fiftyTwoWeekLow": 30.04,
+                    "regularMarketDayHigh": 59.83,
+                    "regularMarketDayLow": 57.5,
+                    "regularMarketVolume": 749255,
+                    "longName": "CRISPR Therapeutics AG",
+                    "shortName": "CRISPR Therapeutics AG",
+                    "chartPreviousClose": 57.04,
                     "priceHint": 2,
                     "currentTradingPeriod": {
                         "pre": {
@@ -71,50 +71,50 @@
                     "quote": [
                         {
                             "volume": [
-                                29789400,
-                                23124200,
-                                18444500,
-                                18660100,
-                                17370000
-                            ],
-                            "open": [
-                                70.38999938964844,
-                                70.55000305175781,
-                                69.11000061035156,
-                                70.43000030517578,
-                                71.30000305175781
-                            ],
-                            "low": [
-                                69.77999877929688,
-                                68.79000091552734,
-                                69.04000091552734,
-                                70.31999969482422,
-                                70.31999969482422
+                                1570900,
+                                1348900,
+                                1402500,
+                                1565200,
+                                1144700
                             ],
                             "high": [
-                                70.52999877929688,
-                                70.69000244140625,
-                                70.62000274658203,
-                                71.31999969482422,
-                                71.30000305175781
+                                58.470001220703125,
+                                59.244998931884766,
+                                58.5,
+                                58.349998474121094,
+                                57.58399963378906
+                            ],
+                            "open": [
+                                56.34000015258789,
+                                56.849998474121094,
+                                57.95000076293945,
+                                57.119998931884766,
+                                55.68000030517578
                             ],
                             "close": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                57.59000015258789,
+                                58.09000015258789,
+                                56.68000030517578,
+                                56.25,
+                                55.970001220703125
+                            ],
+                            "low": [
+                                54.40999984741211,
+                                56.61000061035156,
+                                55.52000045776367,
+                                55.650001525878906,
+                                55.290000915527344
                             ]
                         }
                     ],
                     "adjclose": [
                         {
                             "adjclose": [
-                                70.20999908447266,
-                                69.11000061035156,
-                                70.5199966430664,
-                                70.97000122070312,
-                                70.37000274658203
+                                57.59000015258789,
+                                58.09000015258789,
+                                56.68000030517578,
+                                56.25,
+                                55.970001220703125
                             ]
                         }
                     ]
