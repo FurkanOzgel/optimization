@@ -1,0 +1,126 @@
+{
+    "chart": {
+        "result": [
+            {
+                "meta": {
+                    "currency": "USD",
+                    "symbol": "NVDA",
+                    "exchangeName": "NMS",
+                    "fullExchangeName": "NasdaqGS",
+                    "instrumentType": "EQUITY",
+                    "firstTradeDate": 917015400,
+                    "regularMarketTime": 1767804850,
+                    "hasPrePostMarketData": true,
+                    "gmtoffset": -18000,
+                    "timezone": "EST",
+                    "exchangeTimezoneName": "America/New_York",
+                    "regularMarketPrice": 189.99,
+                    "fiftyTwoWeekHigh": 212.19,
+                    "fiftyTwoWeekLow": 86.62,
+                    "regularMarketDayHigh": 191.36,
+                    "regularMarketDayLow": 186.56,
+                    "regularMarketVolume": 81573523,
+                    "longName": "NVIDIA Corporation",
+                    "shortName": "NVIDIA Corporation",
+                    "chartPreviousClose": 184.97,
+                    "priceHint": 2,
+                    "currentTradingPeriod": {
+                        "pre": {
+                            "timezone": "EST",
+                            "end": 1767796200,
+                            "start": 1767776400,
+                            "gmtoffset": -18000
+                        },
+                        "regular": {
+                            "timezone": "EST",
+                            "end": 1767819600,
+                            "start": 1767796200,
+                            "gmtoffset": -18000
+                        },
+                        "post": {
+                            "timezone": "EST",
+                            "end": 1767834000,
+                            "start": 1767819600,
+                            "gmtoffset": -18000
+                        }
+                    },
+                    "dataGranularity": "1d",
+                    "range": "",
+                    "validRanges": [
+                        "1d",
+                        "5d",
+                        "1mo",
+                        "3mo",
+                        "6mo",
+                        "1y",
+                        "2y",
+                        "5y",
+                        "10y",
+                        "ytd",
+                        "max"
+                    ]
+                },
+                "timestamp": [
+                    1765377000,
+                    1765463400,
+                    1765549800,
+                    1765809000,
+                    1765895400
+                ],
+                "indicators": {
+                    "quote": [
+                        {
+                            "volume": [
+                                162785400,
+                                182136600,
+                                204274900,
+                                164775600,
+                                148588100
+                            ],
+                            "open": [
+                                184.97000122070312,
+                                180.27999877929688,
+                                181.11000061035156,
+                                177.94000244140625,
+                                176.25999450683594
+                            ],
+                            "low": [
+                                182.0399932861328,
+                                176.6199951171875,
+                                174.6199951171875,
+                                175.02999877929688,
+                                174.89999389648438
+                            ],
+                            "high": [
+                                185.47999572753906,
+                                181.32000732421875,
+                                182.82000732421875,
+                                178.4199981689453,
+                                178.49000549316406
+                            ],
+                            "close": [
+                                183.77999877929688,
+                                180.92999267578125,
+                                175.02000427246094,
+                                176.2899932861328,
+                                177.72000122070312
+                            ]
+                        }
+                    ],
+                    "adjclose": [
+                        {
+                            "adjclose": [
+                                183.77999877929688,
+                                180.92999267578125,
+                                175.02000427246094,
+                                176.2899932861328,
+                                177.72000122070312
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "error": null
+    }
+}

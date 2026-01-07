@@ -1,0 +1,125 @@
+{
+    "chart": {
+        "result": [
+            {
+                "meta": {
+                    "currency": "CAD",
+                    "symbol": "MSFT.TO",
+                    "exchangeName": "TOR",
+                    "fullExchangeName": "Toronto",
+                    "instrumentType": "EQUITY",
+                    "firstTradeDate": 1658842200,
+                    "regularMarketTime": 1767804473,
+                    "hasPrePostMarketData": false,
+                    "gmtoffset": -18000,
+                    "timezone": "EST",
+                    "exchangeTimezoneName": "America/Toronto",
+                    "regularMarketPrice": 34.72,
+                    "fiftyTwoWeekHigh": 39.94,
+                    "fiftyTwoWeekLow": 25.02,
+                    "regularMarketDayHigh": 34.82,
+                    "regularMarketDayLow": 34.05,
+                    "regularMarketVolume": 112052,
+                    "longName": "Microsoft Corporation",
+                    "shortName": "MICROSOFT CDR (CAD HEDGED)",
+                    "chartPreviousClose": 35.08,
+                    "priceHint": 2,
+                    "currentTradingPeriod": {
+                        "pre": {
+                            "timezone": "EST",
+                            "start": 1767790800,
+                            "end": 1767796200,
+                            "gmtoffset": -18000
+                        },
+                        "regular": {
+                            "timezone": "EST",
+                            "start": 1767796200,
+                            "end": 1767819600,
+                            "gmtoffset": -18000
+                        },
+                        "post": {
+                            "timezone": "EST",
+                            "start": 1767819600,
+                            "end": 1767823200,
+                            "gmtoffset": -18000
+                        }
+                    },
+                    "dataGranularity": "1d",
+                    "range": "",
+                    "validRanges": [
+                        "1d",
+                        "5d",
+                        "1mo",
+                        "3mo",
+                        "6mo",
+                        "1y",
+                        "2y",
+                        "5y",
+                        "ytd",
+                        "max"
+                    ]
+                },
+                "timestamp": [
+                    1765377000,
+                    1765463400,
+                    1765549800,
+                    1765809000,
+                    1765895400
+                ],
+                "indicators": {
+                    "quote": [
+                        {
+                            "high": [
+                                34.540000915527344,
+                                34.619998931884766,
+                                34.349998474121094,
+                                34.22999954223633,
+                                34.029998779296875
+                            ],
+                            "low": [
+                                33.88999938964844,
+                                33.97999954223633,
+                                33.970001220703125,
+                                33.68000030517578,
+                                33.56999969482422
+                            ],
+                            "volume": [
+                                357700,
+                                195400,
+                                151700,
+                                109500,
+                                82300
+                            ],
+                            "open": [
+                                34.540000915527344,
+                                34.0,
+                                34.220001220703125,
+                                34.150001525878906,
+                                33.650001525878906
+                            ],
+                            "close": [
+                                34.150001525878906,
+                                34.45000076293945,
+                                34.13999938964844,
+                                33.83000183105469,
+                                33.939998626708984
+                            ]
+                        }
+                    ],
+                    "adjclose": [
+                        {
+                            "adjclose": [
+                                34.150001525878906,
+                                34.45000076293945,
+                                34.13999938964844,
+                                33.83000183105469,
+                                33.939998626708984
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "error": null
+    }
+}

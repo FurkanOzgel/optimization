@@ -1,0 +1,134 @@
+{
+    "chart": {
+        "result": [
+            {
+                "meta": {
+                    "currency": "USD",
+                    "symbol": "META",
+                    "exchangeName": "NMS",
+                    "fullExchangeName": "NasdaqGS",
+                    "instrumentType": "EQUITY",
+                    "firstTradeDate": 1337347800,
+                    "regularMarketTime": 1767804948,
+                    "hasPrePostMarketData": true,
+                    "gmtoffset": -18000,
+                    "timezone": "EST",
+                    "exchangeTimezoneName": "America/New_York",
+                    "regularMarketPrice": 652.395,
+                    "fiftyTwoWeekHigh": 796.25,
+                    "fiftyTwoWeekLow": 479.8,
+                    "regularMarketDayHigh": 659.15,
+                    "regularMarketDayLow": 644.81,
+                    "regularMarketVolume": 6009958,
+                    "longName": "Meta Platforms, Inc.",
+                    "shortName": "Meta Platforms, Inc.",
+                    "chartPreviousClose": 656.96,
+                    "priceHint": 2,
+                    "currentTradingPeriod": {
+                        "pre": {
+                            "timezone": "EST",
+                            "end": 1767796200,
+                            "start": 1767776400,
+                            "gmtoffset": -18000
+                        },
+                        "regular": {
+                            "timezone": "EST",
+                            "end": 1767819600,
+                            "start": 1767796200,
+                            "gmtoffset": -18000
+                        },
+                        "post": {
+                            "timezone": "EST",
+                            "end": 1767834000,
+                            "start": 1767819600,
+                            "gmtoffset": -18000
+                        }
+                    },
+                    "dataGranularity": "1d",
+                    "range": "",
+                    "validRanges": [
+                        "1d",
+                        "5d",
+                        "1mo",
+                        "3mo",
+                        "6mo",
+                        "1y",
+                        "2y",
+                        "5y",
+                        "10y",
+                        "ytd",
+                        "max"
+                    ]
+                },
+                "timestamp": [
+                    1765377000,
+                    1765463400,
+                    1765549800,
+                    1765809000,
+                    1765895400
+                ],
+                "events": {
+                    "dividends": {
+                        "1765809000": {
+                            "amount": 0.525,
+                            "date": 1765809000
+                        }
+                    }
+                },
+                "indicators": {
+                    "quote": [
+                        {
+                            "low": [
+                                643.4000244140625,
+                                640.7999877929688,
+                                638.6099853515625,
+                                638.7000122070312,
+                                643.2000122070312
+                            ],
+                            "volume": [
+                                16910900,
+                                13056700,
+                                14016900,
+                                15549100,
+                                14309100
+                            ],
+                            "close": [
+                                650.1300048828125,
+                                652.7100219726562,
+                                644.22998046875,
+                                647.510009765625,
+                                657.1500244140625
+                            ],
+                            "high": [
+                                654.510009765625,
+                                655.280029296875,
+                                711.0,
+                                653.0,
+                                662.5399780273438
+                            ],
+                            "open": [
+                                649.9500122070312,
+                                643.2899780273438,
+                                649.7999877929688,
+                                645.7000122070312,
+                                643.5
+                            ]
+                        }
+                    ],
+                    "adjclose": [
+                        {
+                            "adjclose": [
+                                649.6002197265625,
+                                652.1781005859375,
+                                643.7050170898438,
+                                647.510009765625,
+                                657.1500244140625
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "error": null
+    }
+}

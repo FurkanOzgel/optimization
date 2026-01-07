@@ -1,0 +1,126 @@
+{
+    "chart": {
+        "result": [
+            {
+                "meta": {
+                    "currency": "USD",
+                    "symbol": "JPM",
+                    "exchangeName": "NYQ",
+                    "fullExchangeName": "NYSE",
+                    "instrumentType": "EQUITY",
+                    "firstTradeDate": 322151400,
+                    "regularMarketTime": 1767804983,
+                    "hasPrePostMarketData": true,
+                    "gmtoffset": -18000,
+                    "timezone": "EST",
+                    "exchangeTimezoneName": "America/New_York",
+                    "regularMarketPrice": 326.94,
+                    "fiftyTwoWeekHigh": 337.25,
+                    "fiftyTwoWeekLow": 202.16,
+                    "regularMarketDayHigh": 332.15,
+                    "regularMarketDayLow": 324.6,
+                    "regularMarketVolume": 3658289,
+                    "longName": "JPMorgan Chase & Co.",
+                    "shortName": "JP Morgan Chase & Co.",
+                    "chartPreviousClose": 300.51,
+                    "priceHint": 2,
+                    "currentTradingPeriod": {
+                        "pre": {
+                            "timezone": "EST",
+                            "start": 1767776400,
+                            "end": 1767796200,
+                            "gmtoffset": -18000
+                        },
+                        "regular": {
+                            "timezone": "EST",
+                            "start": 1767796200,
+                            "end": 1767819600,
+                            "gmtoffset": -18000
+                        },
+                        "post": {
+                            "timezone": "EST",
+                            "start": 1767819600,
+                            "end": 1767834000,
+                            "gmtoffset": -18000
+                        }
+                    },
+                    "dataGranularity": "1d",
+                    "range": "",
+                    "validRanges": [
+                        "1d",
+                        "5d",
+                        "1mo",
+                        "3mo",
+                        "6mo",
+                        "1y",
+                        "2y",
+                        "5y",
+                        "10y",
+                        "ytd",
+                        "max"
+                    ]
+                },
+                "timestamp": [
+                    1765377000,
+                    1765463400,
+                    1765549800,
+                    1765809000,
+                    1765895400
+                ],
+                "indicators": {
+                    "quote": [
+                        {
+                            "close": [
+                                310.1099853515625,
+                                317.3800048828125,
+                                318.5199890136719,
+                                320.0199890136719,
+                                315.54998779296875
+                            ],
+                            "volume": [
+                                18874100,
+                                9721900,
+                                8982900,
+                                10864100,
+                                8331300
+                            ],
+                            "high": [
+                                311.19000244140625,
+                                318.0,
+                                320.2699890136719,
+                                322.8800048828125,
+                                319.5199890136719
+                            ],
+                            "low": [
+                                298.4599914550781,
+                                309.239990234375,
+                                316.6000061035156,
+                                318.3900146484375,
+                                314.3999938964844
+                            ],
+                            "open": [
+                                300.5,
+                                309.239990234375,
+                                319.67999267578125,
+                                319.5899963378906,
+                                319.0899963378906
+                            ]
+                        }
+                    ],
+                    "adjclose": [
+                        {
+                            "adjclose": [
+                                308.7174377441406,
+                                315.9548034667969,
+                                317.0896911621094,
+                                318.58294677734375,
+                                314.1330261230469
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "error": null
+    }
+}
